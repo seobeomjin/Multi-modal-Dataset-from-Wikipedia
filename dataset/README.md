@@ -1,22 +1,22 @@
 
 ## File type 
-- FA 
-- GA
-- AA_#num
+- FA : it represents "Featured Articles" which is regarded as high-quality articles by Wikipedia.
+- GA : it represents "Good Articles" which is also regarded as high-quality articles by Wikipedia, but lower level than FA
+- AA_#num : it represents "All Articles". There's no article quality. Since the size of all articles are too big, it is divided into 10 parts. A number represents which part this file is.
 
 ## Column Description 
-- title
-- paragraph
-- image url
-- caption
-- context
-- page num
-- TFIDF
-- TFIDF score
-- caption NER
-- caption unigram
-- context NER
-- context unigram
+- title : An article's title
+- paragraph : A paragraph name which a crawled context contained
+- image url : An image url to access that image
+- caption : A crawled caption  
+- context : A most related context among all contexts in an articles 
+- page num 
+- TFIDF : TFIDF score for each word in a caption
+- TFIDF score : we used TFIDF technique to get a most related context, and saved each TFIDF score
+- caption NER : Named Entities in a caption
+- caption unigram : unigrams in a caption 
+- context NER : Named Entities in a context
+- context unigram : unigrams in a context 
 
 ## file Number
 |  Type |  # Pairs   | 
