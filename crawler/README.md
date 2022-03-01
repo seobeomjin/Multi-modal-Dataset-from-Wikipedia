@@ -1,5 +1,5 @@
 We developed a screening pipeline to crawl pairs.<br>
-Please Note that if Wikipedia html constructions are little changed, you have to modify the html parser.
+Please Note that if the Wikipedia html structure is little changed, you have to modify the html in the crawler.
 ## How to run
 ```bash
 # crawl Featured Articles
