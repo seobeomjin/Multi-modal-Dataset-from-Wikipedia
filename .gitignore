@@ -1,2 +1,7 @@
 # dirty files
 dataset/original
+dataset/statistics.csv
+
+crawler/requirements.txt
+crawler/crawler__.py
+crawler/counter.py
