@@ -1,17 +1,17 @@
+We developed a screening pipeline to crawl pairs.
+Please Note that if Wikipedia html constructions are little changed, you have to modify the html parser.
 ## How to run
 ```bash
 # crawl Featured Articles
 python crawler.py --quality FA --fname FA.csv 
 ```
-Please Note that if Wikipedia html constructions are little changed, you have to modify the html parser.
+
 
 <!-- 1) all_pages_for_a_partial_list pkl
 	python crawler/crawler.py --fname AA0.csv --all_pages_pkl 0 --load_csv /mnt/nas2/seungil/crawling/result/AA0.csv
 	python crawler/crawler.py --fname AA1.csv --all_pages_pkl 1 --load_csv /mnt/nas2/seungil/crawling/result/AA1.csv
 	
-
 2) partial_page pkl 활용할 경우 
-
 	python crawler/crawler.py --fname AA0.csv --aa_pkl 0
 	python crawler/crawler.py --fname AA1.csv --aa_pkl 1
 	python crawler/crawler.py --fname AA2.csv --aa_pkl 2

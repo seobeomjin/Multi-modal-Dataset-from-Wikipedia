@@ -1,6 +1,8 @@
 # dirty files
 dataset/original
 dataset/statistics.csv
+dataset/clean_csv.py
+dataset/refined
 
 crawler/requirements.txt
 crawler/crawler___.py
