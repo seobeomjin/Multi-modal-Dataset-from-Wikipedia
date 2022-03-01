@@ -1,9 +1,9 @@
 ## How to run
 ```bash
 # crawl Featured Articles
-python crawler.py --fname FA.csv --quality FA
+python crawler.py --quality FA --fname FA.csv 
 ```
-Note that if Wikipedia html contructions are little changed, you have to modify the html parser.
+Please Note that if Wikipedia html constructions are little changed, you have to modify the html parser.
 
 <!-- 1) all_pages_for_a_partial_list pkl
 	python crawler/crawler.py --fname AA0.csv --all_pages_pkl 0 --load_csv /mnt/nas2/seungil/crawling/result/AA0.csv

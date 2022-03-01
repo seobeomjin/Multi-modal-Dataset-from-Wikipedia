@@ -1,5 +1,5 @@
 
-## File Type 
+## File Name
 - `FA` : it represents "Featured Articles" which is regarded as high-quality articles by Wikipedia editors.
 - `GA` : it represents "Good Articles" which is also regarded as high-quality articles by Wikipedia editors, but lower level than FA
 - `AA_#num` : it represents "All Articles". There's no article quality. Since the size of all articles are too big, it is divided into 10 parts. A number represents which part this file is.
@@ -18,7 +18,7 @@
 - `context NER` : Named Entities in a context
 - `context unigram` : unigrams in a context 
 
-## File Number
+## Number of pairs
 |  Type |  # Pairs   | 
 |:-----:|:----------:|
 |  AA0  |    5039    |
@@ -33,3 +33,5 @@
 |  AA9  |    33886   |
 |  FA   |    2262    |
 |  GA   |    4627    |
+
+
